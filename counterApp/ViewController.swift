@@ -20,7 +20,7 @@ class ViewController: UIViewController {
 var click = 0
     @IBAction func buttonDidTap(_ sender: Any) {
         click = click + 1
-        numberLabel.text = "Значение счетчика: \(String(click))"
+        numberLabel.text = "Значение счетчикa: \(String(click))"
     }
     
 }
